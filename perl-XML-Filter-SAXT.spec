@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-SAXT
+%define		pdir	XML
+%define		pnam	Filter-SAXT
 Summary:	XML::Filter::SAXT - replicates SAX events to several SAX event handlers
 Summary(pl):	XML::Filter::SAXT - powielanie zdarzeñ SAX dla wielu funkcji obs³ugi zdarzeñ SAX
 Name:		perl-XML-Filter-SAXT
