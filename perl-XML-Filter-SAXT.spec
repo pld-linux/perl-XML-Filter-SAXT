@@ -15,7 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	da65cbe1938bff4c8975014c80063e05
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
@@ -27,7 +27,12 @@ stream to several output streams. In this case, the input stream is a
 PerlSAX event producer (like XML::Parser::PerlSAX) and the output
 streams are PerlSAX handlers or filters.
 
-#%description -l pl
+%description -l pl
+SAXT jest modu³em podobnym do uniksowego polecenia 'tee' pod tym
+wzglêdem, ¿e powiela strumieñ wej¶ciowy na kilka strumieni
+wyj¶ciowych. W tym przypadku strumieñ wyj¶ciowy to modu³ tworz±cy
+zdarzenia PerlSAX (jak XML::Parser::PerlSAX), a strumienie wyj¶ciowe
+s± funkcjami obs³ugi lub filtrami PerlSAX.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
