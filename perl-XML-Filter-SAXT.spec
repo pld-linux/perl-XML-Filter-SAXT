@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-SAXT
-Summary:	XML::Filter::SAXT - 
-Summary(pl):	XML::Filter::SAXT - 
+Summary:	XML::Filter::SAXT - replicates SAX events to several SAX event handlers
+Summary(pl):	XML::Filter::SAXT - powielanie zdarzeñ SAX dla wielu funkcji obs³ugi zdarzeñ SAX
 Name:		perl-XML-Filter-SAXT
 Version:	0.01
 Release:	1
@@ -17,14 +17,15 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	da65cbe1938bff4c8975014c80063e05
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-BuildRequires:	perl-XML-UM
-%endif
 Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+SAXT is like the Unix 'tee' command in that it multiplexes the input
+stream to several output streams. In this case, the input stream is a
+PerlSAX event producer (like XML::Parser::PerlSAX) and the output
+streams are PerlSAX handlers or filters.
 
 #%description -l pl
 
