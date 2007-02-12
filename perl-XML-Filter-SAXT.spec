@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-SAXT
 Summary:	XML::Filter::SAXT - replicates SAX events to several SAX event handlers
-Summary(pl):	XML::Filter::SAXT - powielanie zdarzeÒ SAX dla wielu funkcji obs≥ugi zdarzeÒ SAX
+Summary(pl.UTF-8):   XML::Filter::SAXT - powielanie zdarze≈Ñ SAX dla wielu funkcji obs≈Çugi zdarze≈Ñ SAX
 Name:		perl-XML-Filter-SAXT
 Version:	0.01
 Release:	1
@@ -27,12 +27,12 @@ stream to several output streams. In this case, the input stream is a
 PerlSAX event producer (like XML::Parser::PerlSAX) and the output
 streams are PerlSAX handlers or filters.
 
-%description -l pl
-SAXT jest modu≥em podobnym do uniksowego polecenia 'tee' pod tym
-wzglÍdem, øe powiela strumieÒ wej∂ciowy na kilka strumieni
-wyj∂ciowych. W tym przypadku strumieÒ wyj∂ciowy to modu≥ tworz±cy
-zdarzenia PerlSAX (jak XML::Parser::PerlSAX), a strumienie wyj∂ciowe
-s± funkcjami obs≥ugi lub filtrami PerlSAX.
+%description -l pl.UTF-8
+SAXT jest modu≈Çem podobnym do uniksowego polecenia 'tee' pod tym
+wzglƒôdem, ≈ºe powiela strumie≈Ñ wej≈õciowy na kilka strumieni
+wyj≈õciowych. W tym przypadku strumie≈Ñ wyj≈õciowy to modu≈Ç tworzƒÖcy
+zdarzenia PerlSAX (jak XML::Parser::PerlSAX), a strumienie wyj≈õciowe
+sƒÖ funkcjami obs≈Çugi lub filtrami PerlSAX.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
