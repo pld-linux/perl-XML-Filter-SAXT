@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-SAXT
 Summary:	XML::Filter::SAXT - replicates SAX events to several SAX event handlers
-Summary(pl.UTF-8):   XML::Filter::SAXT - powielanie zdarzeń SAX dla wielu funkcji obsługi zdarzeń SAX
+Summary(pl.UTF-8):	XML::Filter::SAXT - powielanie zdarzeń SAX dla wielu funkcji obsługi zdarzeń SAX
 Name:		perl-XML-Filter-SAXT
 Version:	0.01
 Release:	1
