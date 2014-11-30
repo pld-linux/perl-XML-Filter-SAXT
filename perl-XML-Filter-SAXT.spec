@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-SAXT
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::SAXT - replicates SAX events to several SAX event handlers
 Summary(pl.UTF-8):	XML::Filter::SAXT - powielanie zdarzeń SAX dla wielu funkcji obsługi zdarzeń SAX
 Name:		perl-XML-Filter-SAXT
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	da65cbe1938bff4c8975014c80063e05
+URL:		http://search.cpan.org/dist/XML-Filter-SAXT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-libxml-enno
