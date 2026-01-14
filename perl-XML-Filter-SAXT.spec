@@ -8,7 +8,7 @@ Summary:	XML::Filter::SAXT - replicates SAX events to several SAX event handlers
 Summary(pl.UTF-8):	XML::Filter::SAXT - powielanie zdarzeń SAX dla wielu funkcji obsługi zdarzeń SAX
 Name:		perl-XML-Filter-SAXT
 Version:	0.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
